@@ -1,0 +1,70 @@
+TOPIC: General
+QUESTION: You enter google.com in a browser. Explain in detail what happens at the HTTP level.
+QUESTION: How does HTTPS work?
+QUESTION: How do you understand SOLID?
+QUESTION: What serialization protocols do you know, and where are they used?
+QUESTION: What is a pure function in your understanding? What are its advantages?
+QUESTION: What is dependency injection, and why is it needed?
+QUESTION: What is cohesion and coupling?
+QUESTION: What are IaaS, PaaS, and SaaS, and what are the differences between them?
+QUESTION: What debugging methods do you use?
+QUESTION: What patterns do you know? Explain the essence of those listed.
+QUESTION: What is the essence of the Singleton pattern? Why is it also called an anti-pattern?
+QUESTION: What is the Strategy pattern used for?
+QUESTION: What are the key differences between distributed and monolithic systems?
+QUESTION: What distributed system design patterns do you know?
+QUESTION: What are the principles of the Message Bus? Why might duplicates occur in queues?
+QUESTION: What are the principles of building idempotent services?
+QUESTION: How do asynchronous methods work? How does asynchronicity differ from parallelism?
+
+TOPIC: .NET Platform
+QUESTION: Which exceptions cannot be stopped in a catch block?
+QUESTION: What is the difference between .NET Standard Class Library and .NET Core Class Library?
+QUESTION: Explain the difference between deferred and immediate execution in LINQ. Provide examples.
+QUESTION: What is the ConfigureServices method used for in Startup.cs?
+QUESTION: What is the difference between services.AddTransient and services.AddScope in ASP.NET Core?
+QUESTION: What is Kestrel?
+QUESTION: Describe the ASP.NET MVC request pipeline.
+QUESTION: How do you configure HTTP response caching in ASP.NET WebAPI?
+
+TOPIC: Memory Management
+QUESTION: What are the heap and stack? Differences, operating principles.
+QUESTION: How does the garbage collector work?
+QUESTION: Why do we need the reserved keyword "using" in C# if .NET has automatic memory management? How is it related to the disposable pattern, and why is such a complex pattern needed for managed and unmanaged resources?
+QUESTION: What are the specifics of working with the Large Object Heap?
+
+TOPIC: Data Types, Collections, and Data Structures
+QUESTION: When is a generic class of a specific type generated — at runtime or at compile-time?
+QUESTION: What is reflection?
+QUESTION: Explain the LinkedList<T> collection. How does it differ from other collections?
+QUESTION: What is an indexer?
+QUESTION: What is an immutable object? What are the advantages of using immutable objects? Suggest a way to implement it in .NET.
+QUESTION: When should StringBuilder be used, and when should string be used? How does StringBuilder work?
+QUESTION: What is tree balancing?
+QUESTION: What are Key-value structures?
+QUESTION: What is a hash function, and why are hash tables needed?
+QUESTION: What properties should an ideal hash function have?
+QUESTION: What are collisions, and how to deal with them?
+QUESTION: What is the complexity of CRUD operations in Dictionary<K,V> in .NET?
+QUESTION: Where are arrays stored? Arrays of primitive types?
+QUESTION: What is the difference between an array (T[]) and a list (List<T>)?
+QUESTION: What is the difference between IList<T> and IEnumerable<T>?
+QUESTION: Why do we need Enumerable, Observable, AsyncEnumerable, and what data retrieval models do they implement?
+QUESTION: What is the difference between IEnumerable and IQueryable?
+QUESTION: What are enum flags?
+
+TOPIC: Databases
+QUESTION: Explain the normal forms in RDBMS.
+QUESTION: What is an index in a database?
+QUESTION: When should indexes be used? Advantages and disadvantages.
+QUESTION: What types of indexes exist? How do they differ?
+QUESTION: What is ACID?
+QUESTION: What transaction isolation levels do you know?
+QUESTION: What is an execution plan in MS SQL?
+QUESTION: Problem: a query executes for a long time. What methods exist for diagnosing and solving it?
+QUESTION: How do ORM (Entity Framework or Entity Framework Core) translate C# code into database query language? What is used for this?
+
+TOPIC: Parallelism
+QUESTION: What is Task.ConfigureAwait used for?
+QUESTION: For example, there is a web server that performs a database query in response to an HTTP request. There are 16 threads on the server. Each HTTP request makes a query to the database and waits for the results; in this case, the thread is blocked. Can this work be optimized using .NET tools?
+QUESTION: What is ThreadPool used for? Describe the working mechanism: how a thread is allocated and returned back to ThreadPool.

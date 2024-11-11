@@ -1,0 +1,68 @@
+TOPIC: General
+QUESTION: Name the main principles of OOP.
+QUESTION: What are inheritance, encapsulation, abstraction, polymorphism? Provide examples (preferably from personal experience). From which class are all classes implicitly inherited in .NET? Is multiple inheritance allowed in C#?
+QUESTION: What is recursion?
+QUESTION: What is a lambda expression?
+QUESTION: What is parallel programming (multithreading) and its purpose? What classes are used?
+QUESTION: What is JSON?
+QUESTION: How do you understand REST?
+QUESTION: Explain the SPA concept.
+QUESTION: Which GoF patterns have you used?
+QUESTION: What is the difference between GET and POST HTTP methods?
+QUESTION: What problem does Docker solve? What are its pros and cons?
+QUESTION: What is the fundamental difference between unit tests and integration tests?
+
+TOPIC: Exception Handling
+QUESTION: What is an Exception?
+QUESTION: What are try, catch, and finally for? When might the finally block not execute?
+QUESTION: What is a call stack? What key keywords do you know?
+
+TOPIC: .NET Platform
+QUESTION: What is ASP.NET?
+QUESTION: What types of Action filters exist?
+QUESTION: What is a Web Service?
+QUESTION: What is CLR?
+QUESTION: What is a Garbage Collector at a basic level?
+QUESTION: What is a delegate?
+QUESTION: Is there a difference between Delegate and Action?
+QUESTION: What is LINQ and what is it used for? Provide a few examples of LINQ usage.
+QUESTION: What is a namespace, and why is it needed?
+
+TOPIC: Data Types, Collections, and Data Structures
+QUESTION: What data types do you know?
+QUESTION: What primitive types do you know?
+QUESTION: What is a Nullable type?
+QUESTION: What is a value type, and what is a reference type? Which is a class, and which is a struct? In which memory area are they stored?
+QUESTION: What is the difference between value and reference types? Is String a reference or value type?
+QUESTION: What is the difference between string and string builder?
+QUESTION: What are generics? What problems do they solve?
+QUESTION: What is boxing/unboxing?
+QUESTION: What is an Array, List, HashSet, Dictionary? Provide examples of usage for these data structures. What is the complexity of operations with them (search, insertion, deletion)?
+QUESTION: What collections do you know?
+QUESTION: What does the yield operator do?
+
+TOPIC: Classes, Structures, and Interfaces
+QUESTION: What is a class?
+QUESTION: What is the difference between a class and an abstract class?
+QUESTION: What is the difference between an abstract class and an interface? Why are interfaces needed and what tasks do they perform?
+QUESTION: What access modifiers do you know?
+QUESTION: What is the difference between a regular class and a static class?
+QUESTION: What is the difference between overriding a method with the keywords new and override?
+QUESTION: What is the difference between const and read only?
+QUESTION: Difference between a structure and a class. Provide examples of structures.
+QUESTION: Can an instance of a structure be stored on the heap? How to do it?
+
+TOPIC: Asynchronous Programming
+QUESTION: What is asynchronous programming and how does it differ from multithreading?
+QUESTION: What are the keywords for using async in code?
+QUESTION: What do the async/await keywords mean?
+
+TOPIC: Databases
+QUESTION: What is the difference between relational and non-relational databases, and the pros and cons of using both?
+QUESTION: What are indexes in RDBMS?
+QUESTION: What types of JOINs exist in SQL?
+
+TOPIC: Testing
+QUESTION: What are unit tests for?
+QUESTION: What are the advantages and disadvantages of using unit tests?
+QUESTION: What are the three logical blocks of a unit test?

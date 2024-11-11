@@ -1,0 +1,58 @@
+TOPIC: General
+QUESTION: What other practices, apart from OOP, have you used (AOP, FP, etc.)?
+QUESTION: Name the three most challenging problems you've solved. How did you solve them, and how did you arrive at the solution?
+QUESTION: What is loosely coupled code? How is it better than tightly coupled code? How would you achieve looser coupling in code?
+QUESTION: Does the use of static classes increase or decrease code coupling?
+QUESTION: How can code performance be measured? Does the fact of measurement affect performance?
+QUESTION: What are multi-stage builds in Docker, and how do they work?
+QUESTION: How can you tell if some part of the code is utilizing a lot of memory or taking too long to execute? What can be a bottleneck in various cases? What are some ways to reduce memory and memory traffic?
+QUESTION: How would you implement cross-cutting concerns (e.g., logging, validation, transactions)?
+QUESTION: Describe the REST Maturity Model.
+QUESTION: What are CPU and IO-bound tasks?
+QUESTION: What is marshaling?
+QUESTION: How does async/await work in detail? Why shouldn’t async void methods be used?
+
+TOPIC: .NET Platform
+QUESTION: How does lock work? Can you use structures inside the lock expression?
+QUESTION: What is an Expression Tree?
+QUESTION: How does the garbage collector work (in detail)? Why are there three generations in GC, and not, say, five, ten, or two?
+QUESTION: How would you organize tracing for Web API services?
+QUESTION: How can secrets be stored in .NET Core on developer machines and production environments?
+QUESTION: How would you organize the CI/CD process for .NET Core services for deployment to cloud infrastructure?
+QUESTION: How to enable CORS in AspNetCore?
+
+TOPIC: Data Types, Collections, and Data Structures
+QUESTION: How are generics implemented?
+QUESTION: How to create a custom immutable type?
+QUESTION: How does IEnumerable<T> work in detail?
+QUESTION: What algorithm does the STACK collection use?
+QUESTION: What data structures have you implemented yourself for the .NET platform? How did they differ from standard implementations?
+QUESTION: What is the difference between an interface and an abstract class? In which cases would you use each?
+QUESTION: Why don’t structures have a default constructor?
+
+TOPIC: Databases
+QUESTION: How does a database store data?
+QUESTION: What types of databases do you know?
+QUESTION: Which databases are better to use, and when?
+QUESTION: What is denormalization?
+QUESTION: When and what transaction isolation levels should be used?
+QUESTION: How are ACID principles implemented in popular RDBMS (SQL Server, PostgreSQL, etc.)?
+QUESTION: Have you had to optimize a database query? If so, how?
+QUESTION: Describe potential problems associated with concurrent database queries.
+QUESTION: Which database would you use to implement a distributed lock mechanism? Describe the details of the implementation.
+
+TOPIC: Microservices
+QUESTION: What problem do microservices solve?
+QUESTION: What are the communication methods for microservices?
+QUESTION: Describe options for implementing distributed transactions in microservices.
+QUESTION: What is a circuit breaker?
+QUESTION: How would you debug a system composed of multiple microservices if you need to trace the complete path of request processing?
+QUESTION: What are message brokers? What is the at-least-once, at-most-once semantics? Are there brokers that guarantee exactly-once semantics?
+QUESTION: How should client code for a broker behave based on the selected semantics?
+QUESTION: What queue tools do you know (both in .NET and standalone products), and which tool/product would you choose and why?
+
+TOPIC: MS Azure
+QUESTION: What types of services are available in Service Fabric?
+QUESTION: What are the features and limitations of Azure Table Storage?
+QUESTION: How do you deal with the cold start problem in Azure Functions?
+QUESTION: What is the difference between queues and topics in Azure Service Bus?
