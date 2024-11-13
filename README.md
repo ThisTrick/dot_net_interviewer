@@ -40,7 +40,7 @@ We welcome contributions! Feel free to fork the repository and submit pull reque
 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-nc-nd/4.0/](http://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 ## Support
-For questions or feedback, please open an issue or reach out through [GitHub Discussions](https://github.com/ThisTrick/dot_net_interviewer/discussions).
+For questions or feedback, please open an issue or reach out through [GitHub Issues]([https://github.com/ThisTrick/dot_net_interviewer/discussions](https://github.com/ThisTrick/dot_net_interviewer/issues)).
 
 ## Links
 - [GitHub Repository](https://github.com/ThisTrick/dot_net_interviewer)
